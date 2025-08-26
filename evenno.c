@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main() {
+    int i,num=1;
+    printf("First 10 odd numbers\n");
+    for (i=1;i<=10;i++){
+            printf("%d\n",num);
+            num+=1;
+    }
+    return 0;
+}
